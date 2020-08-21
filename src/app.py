@@ -7,3 +7,8 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, and_
 
 from flask import Flask, jsonify
+
+## Setup DB
+engine = create_engine("")
+
+
